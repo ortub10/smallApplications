@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PointUpPointDown</string>
+    <string name="temp_btn_text">שלום</string>
+    <string name="initial_score_txt">הניקוד שלך הוא 0</string>
+    <string name="btn_up_txt">לחף להעלאת נקודה</string>
+    <string name="btn_down_txt">לחץ להורדת נקודה</string>
+    <string name="score_txt">הניקוד שלך הוא</string>
+</resources>

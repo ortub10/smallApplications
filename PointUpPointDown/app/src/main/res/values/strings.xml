@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PointUpPointDown</string>
+    <string name="temp_btn_text">Hello</string>
+    <string name="initial_score_txt">Your score is 0</string>
+    <string name="btn_up_txt">Press to raise point</string>
+    <string name="btn_down_txt">Press to decrease point</string>
+    <string name="score_txt">Your score is</string>
+</resources>
