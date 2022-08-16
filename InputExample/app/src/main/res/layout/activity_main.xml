@@ -9,7 +9,9 @@
         android:hint="@string/edittext_hint"
         android:gravity="center"
         android:layout_margin="20dp"
-        android:id="@+id/name_input"/>
+        android:id="@+id/name_input"
+        android:inputType="text"
+        android:autofillHints="username" />
 
     <Button
         android:layout_width="match_parent"
