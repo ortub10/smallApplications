@@ -1,4 +1,4 @@
-# PointUpPointDown
+# InputExample
 
 In this application I have learned about EditText.
 
