@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SemiProgramaticLayout</string>
+    <string name="edittext_hint">How many buttons?</string>
+    <string name="btn_txt">Finish</string>
+</resources>
