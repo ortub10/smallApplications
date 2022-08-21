@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/cat_image"
+        android:src="@drawable/cat"
+        android:contentDescription="@null" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cat_image"
+        android:id="@+id/alpha_seekbar"/>
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alpha_seekbar"
+        android:id="@+id/size_seekbar"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:id="@+id/switch_btn"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/size_seekbar"
+        android:id="@+id/edittext_layout">
+
+        <ToggleButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/toggle_btn"
+            android:textColor="@color/color_selector"
+            android:layout_weight="1"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:id="@+id/edit_text"
+            android:hint="@string/input_et"
+            android:autofillHints="password"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/edittext_layout"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@null"
+        android:src="@drawable/image_selector"
+        android:scaleType="fitXY"
+        android:id="@+id/image_btn"
+        android:background="@null"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Hello_btn"
+        android:layout_alignBottom="@+id/image_btn"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:id="@+id/shape_btn"
+        android:background = "@drawable/shape_selector"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shape_btn"
+        android:layout_marginTop="40dp"
+        android:id="@+id/horizons">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/cat"
+                android:background="#cac"
+                android:contentDescription="@null" />
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/cat"
+                android:background="#cac"
+                android:contentDescription="@null" />
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/cat"
+                android:background="#cac"
+                android:contentDescription="@null" />
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/cat"
+                android:background="#cac"
+                android:contentDescription="@null" />
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/cat"
+                android:background="#cac"
+                android:contentDescription="@null" />
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/cat"
+                android:background="#cac"
+                android:contentDescription="@null" />
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/cat"
+                android:background="#cac"
+                android:contentDescription="@null" />
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/cat"
+                android:background="#cac"
+                android:contentDescription="@null" />
+
+        </TableRow>
+    </HorizontalScrollView>
+
+</RelativeLayout>

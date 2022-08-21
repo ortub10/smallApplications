@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AdvanceGuiExample</string>
+    <string name="input_et">הכנס קלט</string>
+    <string name="Hello_btn">שלום</string>
+</resources>

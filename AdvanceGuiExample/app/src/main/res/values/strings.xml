@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AdvanceGuiExample</string>
+    <string name="input_et">Enter input</string>
+    <string name="Hello_btn">Hello</string>
+</resources>
