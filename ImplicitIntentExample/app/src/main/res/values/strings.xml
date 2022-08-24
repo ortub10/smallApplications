@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ImplicitIntentExample</string>
+    <string name="phone_et">Enter phone number</string>
+    <string name="dial_btn">Dial</string>
+</resources>
