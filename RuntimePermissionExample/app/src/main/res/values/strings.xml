@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RuntimePermissionExample</string>
+    <string name="phone_et">Enter phone number</string>
+    <string name="call_btn">Call</string>
+    <string name="settings_btn">Settings</string>
+    <string name="no_permission">Sorry, can\'t work without call permission </string>
+</resources>
