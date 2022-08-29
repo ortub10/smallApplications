@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AdvanceImplicitIntentExample</string>
+    <string name="enter_email">Enter email</string>
+    <string name="send">send</string>
+    <string name="enter_site_address">Enter site address</string>
+    <string name="browse">browse</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="dial">dial</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="map">Map</string>
+    <string name="show_contacts">Show contacts</string>
+    <string name="enter_message">Enter message</string>
+    <string name="enter_number">Enter number</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="waze">waze</string>
+</resources>
