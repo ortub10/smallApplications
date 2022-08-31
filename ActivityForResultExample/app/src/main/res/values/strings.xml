@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ActivityForResultExample</string>
+    <string name="please_enter_name">Please enter name</string>
+    <string name="take_test">Take test</string>
+    <string name="Q1">Who was the first israeli prime minister?</string>
+    <string name="benjamin_netanyahu">benjamin netanyahu</string>
+    <string name="zalman_shazar">Zalman Shazar</string>
+    <string name="ben_gurion">Ben Gurion</string>
+    <string name="Q2">Which hebrew writer won the nobel prize for Literature?</string>
+    <string name="amos_oz">Amos Oz</string>
+    <string name="shay_agnon">Shay Agnon</string>
+    <string name="david_grossmam">David Grossmam</string>
+    <string name="finish">Finish</string>
+    <string name="show_grade">Your grade is:</string>
+    <string name="quitter">Quitter!!!</string>
+    <string name="take_picture">Take picture</string>
+    <string name="recognize_speech">Recognize speech</string>
+</resources>
