@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SecondFileExample</string>
+    <string name="take_picture">Take picture</string>
+    <string name="save_picture">Save picture</string>
+    <string name="load_picture">Load picture</string>
+</resources>
