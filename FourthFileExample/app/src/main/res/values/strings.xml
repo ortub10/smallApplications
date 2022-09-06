@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FourthFileExample</string>
+
+    <string name="enter_first_name">Enter first name</string>
+    <string name="enter_last_name">Enter last name</string>
+    <string name="save_person">Save person</string>
+    <string name="load_person">Load person</string>
+    <string name="take_picture">Take picture</string>
+    <string name="fill_all_fields">Please fill all fields</string>
+</resources>
