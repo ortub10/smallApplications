@@ -12,6 +12,7 @@ import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
+import androidx.exifinterface.media.ExifInterface;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -23,6 +24,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import java.io.File;
+import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,10 +35,32 @@ public class MainActivity extends AppCompatActivity {
     ActivityResultLauncher<Intent> imageResult = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(),result -> {
         if (result !=null && result.getResultCode() == RESULT_OK){
             Bitmap bitmap = BitmapFactory.decodeFile(file.getAbsolutePath());
-            Matrix matrix = new Matrix();
-            matrix.postRotate(90);
-            Bitmap rotatedBitmap = Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), matrix, true);
-            imageView.setImageBitmap(rotatedBitmap);
+            ExifInterface exifInterface = null;
+            try {
+                exifInterface = new ExifInterface(file.getAbsolutePath());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            if (exifInterface!=null){
+                int orientation = exifInterface.getAttributeInt(ExifInterface.TAG_ORIENTATION,ExifInterface.ORIENTATION_UNDEFINED);
+                Matrix matrix = new Matrix();
+                switch (orientation){
+                    case ExifInterface.ORIENTATION_ROTATE_90:
+                        matrix.setRotate(90);
+                        break;
+                    case ExifInterface.ORIENTATION_ROTATE_180:
+                        matrix.setRotate(180);
+                        break;
+                    case ExifInterface.ORIENTATION_ROTATE_270:
+                        matrix.setRotate(270);
+                        break;
+                }
+
+                Bitmap rotatedBitmap = Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), matrix, true);
+                imageView.setImageBitmap(rotatedBitmap);
+            }
+
+
         }
     });
 
