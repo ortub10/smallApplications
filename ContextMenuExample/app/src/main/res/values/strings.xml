@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ContextMenuExample</string>
+    <string name="just_some_text_view">Just some text view</string>
+    <string name="another_text_view">Another text view</string>
+    <string name="save_image">Save image</string>
+    <string name="first_item">First item</string>
+    <string name="second_item">Second item</string>
+</resources>
