@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AlertItemsDialogExample</string>
+    <string name="show_items_dialog">הראה דיאלוג של פריטים</string>
+    <string name="show_multi_choice_dialog">"הראה דיאלוג רב ברירה "</string>
+    <string name="show_single_choice_dialog">הראה דיאלוג לברירה יחידה</string>
+
+    <string-array name="days">
+        <item>ראשון</item>
+        <item>שני</item>
+        <item>שלישי</item>
+        <item>רביעי</item>
+        <item>חמישי</item>
+        <item>שישי</item>
+    </string-array>
+</resources>

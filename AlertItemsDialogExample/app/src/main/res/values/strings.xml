@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AlertItemsDialogExample</string>
+    <string name="show_items_dialog">Show items dialog</string>
+    <string name="show_multi_choice_dialog">Show multi choice dialog</string>
+    <string name="show_single_choice_dialog">Show single choice dialog</string>
+
+    <string-array name="days">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+</resources>
