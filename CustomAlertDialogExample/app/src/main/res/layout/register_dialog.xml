@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="@null"
+        android:background="#cac"/>
+
+    <EditText
+        android:id="@+id/use_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:autofillHints="name"
+        android:gravity="center"
+        android:hint="@string/enter_user_name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#616161" />
+
+    <EditText
+        android:id="@+id/password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:autofillHints="password"
+        android:gravity="center"
+        android:hint="@string/enter_password"
+        android:inputType="number|numberPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#616161" />
+
+
+</LinearLayout>
