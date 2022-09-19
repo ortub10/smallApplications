@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SimpleAdapterExample</string>
+    <string name="is_good">is good</string>
+</resources>
