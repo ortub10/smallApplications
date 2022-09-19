@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ArrayAdapterExample</string>
+    <string name="enter_color">Enter color</string>
+    <string name="add">Add</string>
+</resources>
