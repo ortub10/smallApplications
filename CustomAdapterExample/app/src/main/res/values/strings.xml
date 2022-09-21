@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CustomAdapterExample</string>
+    <string name="is_good">is good</string>
+    <string name="move">Move</string>
+</resources>
