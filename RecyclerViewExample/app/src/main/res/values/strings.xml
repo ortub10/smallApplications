@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RecyclerViewExample</string>
+    <string name="is_good">is good</string>
+</resources>
