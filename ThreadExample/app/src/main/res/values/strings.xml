@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ThreadExample</string>
+    <string name="download_image">Download image</string>
+    <string name="nothing_happened_yet">Nothing happened yet...</string>
+    <string name="download_started">Download started....</string>
+    <string name="download_finished">Download finished</string>
+</resources>
