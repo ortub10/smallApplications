@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/notification_title"
+        android:text="@string/media_player"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_media_previous"
+            android:layout_weight="1"
+            android:id="@+id/prev_btn"
+            android:contentDescription="@null" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_media_play"
+            android:layout_weight="1"
+            android:id="@+id/play_btn"
+            android:contentDescription="@null"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_media_pause"
+            android:layout_weight="1"
+            android:id="@+id/pause_btn"
+            android:contentDescription="@null"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_media_next"
+            android:layout_weight="1"
+            android:id="@+id/next_btn"
+            android:contentDescription="@null"/>
+
+    </LinearLayout>
+
+</LinearLayout>
